@@ -1,0 +1,35 @@
+# --- generated simulation artifacts ---
+*.rds
+
+# --- CmdStan compiled model executables / intermediate files ---
+*.exe
+*.hpp
+*.o
+bhm
+no_borrow
+pool
+# keep the .stan sources, ignore compiled binaries with no extension:
+# (the three lines above match the exe names this repo produces on Linux/macOS)
+
+# --- CmdStan sampler output ---
+*.csv
+
+# --- R session cruft ---
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+
+# --- LaTeX build products (keep basket_notes.tex, drop the rest) ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+basket_notes.pdf
