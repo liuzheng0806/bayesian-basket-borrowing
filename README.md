@@ -207,12 +207,12 @@ Specific things worth checking:
 - [x] Step 1 — BHM in Stan, single-scenario posterior + decision rule
 - [x] Step 2 — calibrate BHM `c*` under scenario 1 (per-basket type I error 0.10)
 - [x] Step 3a — calibrate `c*` for no-borrow and complete-pool
-- [ ] Step 3b — OC sweep (scenarios 2/3/4): power + per-basket type I error +
+- [x] Step 3b — OC sweep (scenarios 2/3/4): power + per-basket type I error +
       bias/MSE/posterior SD (ready to run)
-- [ ] Step 4 — add EXNEX (column 4); focus on scenario-4 CRC false-positive
+- [x] Step 4 — add EXNEX (column 4); focus on scenario-4 CRC false-positive
       protection vs BHM
-- [ ] Step 5 — prior-sensitivity analysis (`s`, half-Cauchy, inverse-gamma; π for EXNEX)
-- [ ] Step 6 — single interim futility analysis (note: borrowing makes interim
+- [x] Step 5 — prior-sensitivity analysis (`s`, half-Cauchy, inverse-gamma; π for EXNEX)
+- [x] Step 6 — single interim futility analysis (note: borrowing makes interim
       decisions across baskets non-independent)
 - [ ] Stress scenarios — sharper failure-mode probes for borrowing: one active
       among null (`0.30/0.10/0.10/0.10`), a super-responder (`0.50/0.10/0.10/0.10`),
